@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.blueBox {
+	width: 900px;
+	height: 900px;
+	background-color: rgb(90, 90, 253);
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+	.greenBox {
+		width: 100%;
+		max-width: 400px;
+		min-height: 100px;
+		background: linear-gradient(
+			180deg,
+			rgba(44, 255, 0, 1) 0%,
+			rgba(0, 117, 35, 1) 100%
+		);
+		border-radius: 5px;
+		border: 1px solid rgb(139, 185, 139);
+		padding: 40px;
+		display: flex;
+		flex-direction: column;
+}
+
+h3 {
+	margin: 20px;
+}
+
+.first,
+.second,
+.three {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#img {
+	width: 30px;
+	height: 30px;
+}
+
+.sum {
+	display: flex;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	cursor: pointer;
+}
